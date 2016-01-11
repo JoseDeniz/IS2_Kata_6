@@ -53,4 +53,8 @@ public class Application extends JFrame {
         commands.put("calculate", new CalculateCommand(attributeDialog, populationDialog, histogramDisplay));
     }
 
+    public static void main(String[] args) {
+        new Application();
+    }
+
 }

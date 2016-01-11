@@ -1,9 +1,9 @@
 package kata6.application.swing;
 
+import kata6.application.MailReader;
 import kata6.control.Command;
 import kata6.model.Attribute;
 import kata6.model.Person;
-import kata6.view.process.MailReader;
 import kata6.view.ui.AttributeDialog;
 import kata6.view.ui.PopulationDialog;
 
